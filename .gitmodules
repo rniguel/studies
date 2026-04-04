@@ -1,0 +1,3 @@
+[submodule "php/php-course-brocode"]
+	path = php/php-course-brocode
+	url = https://github.com/rniguel/php-course-brocode.git
