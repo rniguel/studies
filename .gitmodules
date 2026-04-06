@@ -1,3 +1,6 @@
 [submodule "php/php-course-brocode"]
 	path = php/php-course-brocode
 	url = https://github.com/rniguel/php-course-brocode.git
+[submodule "sql/sql-course-brocode"]
+	path = sql/sql-course-brocode
+	url = https://github.com/rniguel/sql-course-brocode
