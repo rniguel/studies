@@ -18,9 +18,10 @@ Organizar todos os meus projetos de estudo em um só lugar. Cada tecnologia tem 
 
 ## 🛠️ Tecnologias
 
-| Pasta  |
-| ------ |
-| `php/` |
+| Pasta  | Tecnologia |
+| ------ | ---------- |
+| `php/` | PHP        |
+| `sql/` | SQL        |
 
 ---
 
