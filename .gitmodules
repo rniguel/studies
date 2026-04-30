@@ -7,3 +7,6 @@
 [submodule "javascript/fallback-api-cep"]
 	path = javascript/fallback-api-cep
 	url = https://github.com/rniguel/fallback-api-cep
+[submodule "tools/github-speckit-starting"]
+	path = tools/github-speckit-starting
+	url = https://github.com/rniguel/github-speckit-starting
