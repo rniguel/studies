@@ -18,10 +18,12 @@ Organizar todos os meus projetos de estudo em um só lugar. Cada tecnologia tem 
 
 ## 🛠️ Tecnologias
 
-| Pasta  | Tecnologia |
-| ------ | ---------- |
-| `php/` | PHP        |
-| `sql/` | SQL        |
+| Pasta         | Tecnologia    |
+| ------------- | ------------- |
+| `javascript/` | JavaScript    |
+| `php/`        | PHP           |
+| `sql/`        | SQL           |
+| `tools/`      | Tools         |
 
 ---
 
@@ -41,6 +43,27 @@ Se já clonou sem os submodules:
 
 ```bash
 git submodule update --init --recursive
+```
+
+---
+
+## ➕ Adicionar novo projeto
+
+Para adicionar um novo projeto de estudo como submodule:
+
+```bash
+# Adicionar um novo submodule
+git submodule add <url-do-repositorio> <caminho/local>
+
+# Exemplo: adicionar um projeto de AI
+git submodule add https://github.com/rniguel/meu-projeto-ai.git ai/meu-projeto-ai
+```
+
+Depois de adicionar, commite a alteração:
+
+```bash
+git add .gitmodules <caminho/local>
+git commit -m "feat: add <nome-do-projeto> submodule"
 ```
 
 ---
