@@ -10,3 +10,6 @@
 [submodule "tools/github-speckit-starting"]
 	path = tools/github-speckit-starting
 	url = https://github.com/rniguel/github-speckit-starting
+[submodule "tools/playwright-linkedin"]
+	path = tools/playwright-linkedin
+	url = https://github.com/rniguel/playwright-linkedin
